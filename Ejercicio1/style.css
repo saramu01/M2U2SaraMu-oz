@@ -1,0 +1,32 @@
+.hero {
+    position: relative; 
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('Diagrama/imagen.jpg');
+    background-size: cover;
+
+}
+.boton {
+    background-color: #ffe2b6d0; /* Green */
+    border: none;
+    color: rgb(46, 38, 38);
+    padding: 5px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+  }
+  .cantidad {
+    color: #ffe2b6d0; /* Green */
+  }
+  .resultado {
+    background-color:#ffe2b6d0;
+    color: rgb(46, 38, 38); /* Green */
+  }
+  .resultado2 {
+    background-color:#ffe2b6d0;
+    color: rgb(46, 38, 38); /* Green */
+  }
