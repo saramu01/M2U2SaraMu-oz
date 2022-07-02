@@ -1,7 +1,7 @@
 let input1 = document.getElementById('CantidadMaterias');
-let total= document.getElementById('resultado')
-let total2= document.getElementById('resultado2')
-let nombre1=document.getElementById('NombreEstudiante')
+let total= document.getElementById('resultado');
+let total2= document.getElementById('resultado2');
+let nombre1=document.getElementById('NombreEstudiante');
 
 const boton=document.getElementById('boton');
 
@@ -18,10 +18,10 @@ document.getElementById("CantidadMaterias").onchange = function() {
 
 boton.addEventListener('click',function(){
     var arr = document.getElementsByClassName('box');
-    var descuento=0.2
-    var fijo=28000
+    var descuento=0.2;
+    var fijo=28000;
     var tot=0;
-    let CantidadMaterias= parseInt(input1.value)
+    let CantidadMaterias= parseInt(input1.value);
     for(var i=0;i<arr.length;i++){
         if(parseInt(arr[i].value))
             tot += parseInt(arr[i].value);
